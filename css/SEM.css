@@ -4,7 +4,7 @@ img{
 .banner{
     width: 100%;
     height: 100%;
-    background: url("../img/12345.jpg");
+    background: url("../img/12345.jpg") no-repeat center;
 }
 
 
@@ -59,7 +59,7 @@ img{
     margin-right: 5px;
 }
 .footer-tel-1S{
-    font-size: 29.93px;
+    font-size: 0.25rem;
     margin-right: 5px;
 }
 .footer-tel-2{
@@ -70,12 +70,12 @@ img{
 
 }
 .footer-tel-2 i{
-    font-size: 30px;
+    font-size: 0.3rem;
     margin:0 10px;
     line-height: 80px;
 }
 .footer-tel-2S{
-    font-size: 29.93px;
+    font-size: 0.25rem;
 }
 .footer-bottom-2{
     width: 100%;
@@ -91,7 +91,7 @@ img{
     width: 16.5%;
     text-align: center;
     float: left;
-    font-size: 30px;
+    font-size: 0.25rem;
 }
 .footer-link li a{
     color: #000000;
@@ -116,9 +116,9 @@ img{
 }
 .footer-Ext-leftT,.footer-Ext-leftB{
     text-align: center;
-    /*line-height: 20vh;*/
     width: 100%;
     height: 50%;
+    font-size: 0.2rem;
 }
 .footer-Ext-leftB{
     letter-spacing:6px;
