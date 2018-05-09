@@ -305,3 +305,6 @@ img{
     background: #ffffff;
     color:#000000;
 }
+
+/*map*/
+body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}

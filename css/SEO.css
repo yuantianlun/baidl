@@ -17,7 +17,21 @@ img{
     height: 68vh;
     background: #00bdbf;
 }
-
+.nav_box3{
+    width: 100%;
+}
+.nav_box3 span{
+    font-size: 0.6em;
+    float: left;
+}
+.nav_box31{
+    float: left;
+    width: 25%;
+    height: 9px;
+    background: #021c33;
+    margin-left:1% ;
+    margin-top: 0.3%;
+}
 
 /*footer*/
 .footer{
