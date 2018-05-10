@@ -17,12 +17,96 @@ img{
     height: 100%;
     float: right;
 }
+.nav_rbt{
+    width: 100%;
+    height: 26%;
+    text-align: center;
+    padding-top: 8%;
+}
+.nav_rbt h1{
+    font-size: 5em;
+    letter-spacing: 15px;
+}
+.nav_rbt h6{
+    font-size: 1.8em;
+}
+.nav_rbox{
+    position: relative;
+}
+.nav_r1{
+    width: 75%;
+    height: 17%;
+    margin: 0 auto;
+    color: #ffffff;
+    padding: 4% 15%;
+}
+.nav_r1 h5{
+    font-size: 1.8em;
+    letter-spacing: 4px;
+}
+.nav_r1 h6{
+    font-size: 1.2em;
+    letter-spacing: 3px;
+}
+.nav_r .nav_r1:nth-child(2){
+    background: #041e35;
+}
+.nav_r .nav_r1:nth-child(3){
+    background: #05427b;
+}
+.nav_r .nav_r1:nth-child(4){
+    background: #041e35;
+}
+.nav_r .nav_r1:nth-child(5){
+    background: #05427b;
+}
+.triangle-down {
+    position: absolute;
+    right: 12%;
+    width: 0;
+    height: 0;
+    border-left: 2.6vw solid transparent;
+    border-right: 2.6vw solid transparent;
+    border-top: 7vh solid #46a2f7;
+}
 .nav_l{
     width: 50%;
     height: 100%;
+    position: relative;
 }
-
-
+.nav_lbox{
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
+.nav_lbox1{
+    width: 90%;
+    height: 27%;
+    margin: 0 auto;
+}
+.nav_lbox2{
+    width: 90%;
+    height: 34%;
+    margin: 0 auto;
+}
+.nav_lbox3{
+    width: 90%;
+    height: 41%;
+    margin: 0 auto;
+}
+@media screen and (min-width: 996px) and (max-width: 1024px){
+    body{
+        font-size: 14px;!important;
+    }
+}
+@media screen and (min-width: 1024px){
+    body{
+        font-size: 18px;!important;
+    }
+}
 /*footer*/
 .footer{
     width: 100%;
@@ -32,6 +116,7 @@ img{
     width: 100%;
     height: 32%;
     background: url("../img/123456.jpg") center/cover;
+
 }
 .footer-bottom{
     width: 100%;
@@ -44,7 +129,7 @@ img{
     position: relative;
 }
 .footer-tel{
-    width: 40%;
+    width: 50%;
     height: 35%;
     position: absolute;
     top: 0;
@@ -63,14 +148,14 @@ img{
 .footer-tel-1 i{
     font-size: 30px;
     margin:0 10px;
-    line-height: 80px;
+    line-height: 1.6em;
 }
 .footer-tel-wo{
-    font-size: 18px;
+    font-size: 1em;
     margin-right: 5px;
 }
 .footer-tel-1S{
-    font-size: 0.25rem;
+    font-size: 1.4em;
     margin-right: 5px;
 }
 .footer-tel-2{
@@ -81,12 +166,12 @@ img{
 
 }
 .footer-tel-2 i{
-    font-size: 0.3rem;
+    font-size: 1.8em;
     margin:0 10px;
-    line-height: 80px;
+    line-height: 1.6em;
 }
 .footer-tel-2S{
-    font-size: 0.25rem;
+    font-size: 1.4em;
 }
 .footer-bottom-2{
     width: 100%;
@@ -102,7 +187,7 @@ img{
     width: 16.5%;
     text-align: center;
     float: left;
-    font-size: 0.25rem;
+    font-size: 1.5em;
 }
 .footer-link li a{
     color: #000000;
@@ -129,7 +214,7 @@ img{
     text-align: center;
     width: 100%;
     height: 50%;
-    font-size: 0.2rem;
+    font-size: 1em;
 }
 .footer-Ext-leftB{
     letter-spacing:6px;

@@ -10,7 +10,7 @@ img{
 .nav{
     width: 100%;
     height: 100%;
-    background: url("../img/dianshang/dianshang.jpg") center/cover;
+    background: url("../img/dianshang/nav.jpg") center/cover;
 }
 
 /*footer*/
@@ -22,6 +22,7 @@ img{
     width: 100%;
     height: 32%;
     background: url("../img/123456.jpg") center/cover;
+
 }
 .footer-bottom{
     width: 100%;
@@ -34,7 +35,7 @@ img{
     position: relative;
 }
 .footer-tel{
-    width: 40%;
+    width: 50%;
     height: 35%;
     position: absolute;
     top: 0;
@@ -53,14 +54,14 @@ img{
 .footer-tel-1 i{
     font-size: 30px;
     margin:0 10px;
-    line-height: 80px;
+    line-height: 1.6em;
 }
 .footer-tel-wo{
-    font-size: 18px;
+    font-size: 1em;
     margin-right: 5px;
 }
 .footer-tel-1S{
-    font-size: 0.25rem;
+    font-size: 1.4em;
     margin-right: 5px;
 }
 .footer-tel-2{
@@ -71,12 +72,12 @@ img{
 
 }
 .footer-tel-2 i{
-    font-size: 0.3rem;
+    font-size: 1.8em;
     margin:0 10px;
-    line-height: 80px;
+    line-height: 1.6em;
 }
 .footer-tel-2S{
-    font-size: 0.25rem;
+    font-size: 1.4em;
 }
 .footer-bottom-2{
     width: 100%;
@@ -92,7 +93,7 @@ img{
     width: 16.5%;
     text-align: center;
     float: left;
-    font-size: 0.25rem;
+    font-size: 1.5em;
 }
 .footer-link li a{
     color: #000000;
@@ -119,7 +120,7 @@ img{
     text-align: center;
     width: 100%;
     height: 50%;
-    font-size: 0.2rem;
+    font-size: 1em;
 }
 .footer-Ext-leftB{
     letter-spacing:6px;
