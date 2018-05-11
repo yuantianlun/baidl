@@ -2,7 +2,7 @@
 	padding: 0;
 	margin:0 ;
 	list-style: none; 
-	font-family: "FZHei-B01S",sans-serif;
+	font-family: FZHei-B01S;
 	box-sizing:border-box;
 }
 
@@ -15,4 +15,5 @@ boby{
 }
 img{
 	border: 0;
+	width: 100%;
 }
