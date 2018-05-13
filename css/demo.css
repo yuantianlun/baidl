@@ -165,7 +165,7 @@
 
 .service-top-Eword {
     text-align: center;
-    font-size: 2.1em;
+    font-size: 0.5rem;
 }
 
 .Our {
@@ -190,7 +190,7 @@
 }
 
 .service-top-Cword {
-    font-size: 1.8em;
+    font-size: 0.3rem;
     text-align: center;
 }
 
@@ -213,15 +213,15 @@
 }
 
 .service-bottom-word h4 {
-    font-size: 1.8em;
+    font-size: 0.32em;
 }
 
 .service-bottom-word h6 {
-    font-size: 1.2em;
+    font-size: 0.2rem;
 }
 
 .service-bottom-word h6, .service-bottom-word h4 {
-    line-height: 1.6em;
+    line-height: 0.35rem;
     text-align: center;
 }
 
@@ -269,7 +269,7 @@
 .US-top-Eword {
     text-align: center;
     margin: 0 auto;
-    font-size: 2.1em;
+    font-size: 0.5rem;
 }
 
 .US-top-box {
@@ -290,7 +290,7 @@
 }
 
 .US-top-Cword {
-    font-size: 1.8em;
+    font-size: 0.35rem;
     text-align: center;
 }
 
@@ -298,8 +298,9 @@
     width: 62.5%;
     margin: 0 auto;
     z-index: 99;
-    line-height: 2.2em;
-    font-size: 2.2em;
+    line-height: 0.8rem;
+    font-size: 0.5rem;
+    color: #000;
 }
 
 /*CASE STUDY*/
@@ -314,7 +315,7 @@
 
 .case-top-Eword {
     text-align: center;
-    font-size: 2.1em;
+    font-size: 0.5rem;
 }
 
 .Case {
@@ -336,7 +337,7 @@
 
 .case-top-Cword {
     /*width:100%;*/
-    font-size: 1.8em;
+    font-size: 0.35rem;
     text-align: center;
     color: #fff;
 }
@@ -353,26 +354,30 @@
 .case-bottom ul {
     display: -webkit-flex;
     justify-content: space-around;
-    width: 100%;
+    width: 90%;
+    margin:0 auto;
 }
 
 .case-bottom ul li {
     width: 24%;
     margin-bottom: 3vh;
     float: left;
+    transition: 3s;
 }
-
+.service-bottom li:hover{
+    transform: translateY(-20px);
+}
 .case-bottom li img {
     width: 100%;
 }
 
-.case-bottom li span {
+.case-bottom li div {
     color: #fff;
-    font-size: 20px;
+    font-size: 0.2rem;
 }
 
 .see {
-    font-size: 20px;
+    font-size: 0.3rem;
     line-height: 55px;
     text-align: center;
     margin: 0 auto;

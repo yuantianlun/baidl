@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<header id="header">
+
+    <div class="header-nav">
+        <div class="page-cen clearfix">
+            <div class="logo"></div>
+            <div class="header-meun">
+                <ul>
+                    <li class="active current">
+                        <a href="/" class="item">首页</a>
+                    </li>
+                    <li class="">
+                        <a href="" class="item">关于我们</a>
+                    </li>
+                    <li class=" has_sub">
+                        <a href="" class="item">我们的优势</a>
+                    </li>
+                    <li class=" has_sub">
+                        <a href="" class="item">我们的服务</a>
+                    </li>
+                    <li class=" has_sub">
+                        <a href="" class="item">案例展示</a>
+                    </li>
+                    <li class="">
+                        <a href="" class="item">联系我们</a>
+                    </li>
+                    <li class="header-contact">
+                        <div style="float: left; width: 30px;">
+                            <img src="img/headtel.png" alt="" style="width: 100%;">
+                        </div>
+                        <strong>13616273187</strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+</body>
+</html>
+<style>
+    .page-cen {
+        width: auto;
+        padding: 0 3%;
+        margin: 0px auto;
+        /*min-width: 1200px;*/
+    }
+    #header {
+        background: #fff;
+        box-shadow: 0 0 4px rgba(0,0,0,.2);
+    }
+    #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        line-height: 70px;
+        font-size: 13px;
+        font-weight: 400;
+        background-color: #f4f7f6;
+        z-index: 302;
+    }
+    #header .bt-menu {
+        float: left;
+        min-width: 115px;
+        height: 70px;
+        border-right: 1px solid #E6EAEA;
+        color: #202121;
+        cursor: pointer;
+        overflow: hidden;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    .header-main {
+        display: none !important;
+    }
+    #header .bt-menu .ico-menu {
+        top: -1px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    .ico-menu {
+        position: relative;
+        display: inline-block;
+        width: 15px;
+        height: 13px;
+    }
+    #header .bt-menu span {
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    .ico-menu .bar:nth-child(1) {
+        top: 0;
+        width: 9px;
+    }
+    .ico-menu .bar:nth-child(2) {
+        top: 5px;
+        width: 15px;
+    }
+    .ico-menu .bar:nth-child(3) {
+        top: 10px;
+        width: 12px;
+    }
+    .ico-menu .bar {
+        position: absolute;
+        height: 3px;
+        background-color: #202121;
+        overflow: hidden;
+    }
+</style>
+<style>
+    @media screen and (max-width: 1440px)
+        .page-cen {
+            min-width: 0;
+        }
+    }
+    .page-cen {
+        width: auto;
+        padding: 0 80px;
+        margin: 0px auto;
+        min-width: 1200px;
+    }
+    .clearfix {
+        clear: both;
+    }
+    .header-nav .logo {
+        float: left;
+        width: 15%;
+        height: 50px;
+        margin-top: 10px;
+        background: url("img/logo.png")center/cover;
+    }
+    .header-nav .logo a, .header-nav .logo img {
+        display: block;
+        width: 100%;
+    }
+    .header-meun {
+        float: right;
+        width: 80%;
+        margin:0 auto;
+        height: 100%;
+    }
+    .header-meun ul {
+        height: 70px;
+        margin: 0 auto;
+        width:780px;
+        line-height: 70px;
+    }
+    .header-meun ul li.active {
+        background: #33cde5;
+    }
+    .header-meun ul li {
+        float: left;
+        height: 70px;
+    }
+
+    #header li .item {
+        display: block;
+    }
+    #header .item {
+        padding: 0 23px;
+    }
+    .header-meun ul li.active a {
+        color: #fff;
+    }
+    .header-meun ul li a {
+        font-size: 16px;
+        color: #333;
+        position: relative;
+        z-index: 9;
+    }
+    a {
+        color: #33cde5;
+        text-decoration: none;
+        -webkit-transition: color 0.3s ease-in-out;
+        transition: color 0.3s ease-in-out;
+        cursor: pointer;
+    }
+    ul{
+        margin:0;
+        padding:0;
+    }
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+        list-style: none;
+        margin:0;
+        padding:0;
+    }
+    .header-meun ul li {
+        float: left;
+        height: 70px;
+    }
+    .header-meun ul li {
+        float: left;
+        height: 70px;
+    }
+    #header .item {
+        padding: 0 20px;
+    }
+    .header-meun ul li a {
+        font-size: 16px;
+        color: #333;
+        position: relative;
+        z-index: 9;
+    }
+    .header-meun ul li {
+        float: left;
+        height: 70px;
+    }
+
+</style>
+<style>
+    /*
+ * jQuery FlexSlider v2.2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+
+    /* Browser Resets
+    *********************************/
+    .flex-container a:active,
+    .flexslider a:active,
+    .flex-container a:focus,
+    .flexslider a:focus  {outline: none;}
+    .slides,
+    .flex-control-nav,
+    .flex-direction-nav {margin: 0; padding: 0; list-style: none;}
+
+
+    /* FlexSlider Necessary Styles
+    *********************************/
+    .flexslider {margin: 0; padding: 0;}
+    .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+    .flexslider .slides img {width: 100%; display: block;}
+    .flex-pauseplay span {text-transform: capitalize;}
+
+    /* Clearfix for the .slides element */
+    .slides:after {content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+    html[xmlns] .slides {display: block;}
+    * html .slides {height: 1%;}
+
+    /* No JavaScript Fallback */
+    /* If you are not using another script, such as Modernizr, make sure you
+     * include js that eliminates this class on page load */
+    .no-js .slides > li:first-child {display: block;}
+
+    /* FlexSlider Default Theme
+    *********************************/
+    .flexslider {
+        background: #fff; border: 0px solid #fff; position: relative;
+    }
+    .flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
+    .loading .flex-viewport { max-height: 300px; }
+    .flexslider .slides { zoom: 1; }
+    .carousel li { margin-right: 5px; }
+
+    /* Direction Nav */
+    .flex-direction-nav {*height: 0;}
+    .flex-direction-nav a  { text-decoration:none; display: block; width: 40px; height: 48px; margin: -20px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8);  text-indent:-999em }
+    .flex-direction-nav .flex-prev { left: -50px; background-position:0 0 }
+    .flex-direction-nav .flex-next { right: -50px; background-position:-132px 0}
+    .flexslider:hover .flex-prev { opacity: 0.7; left: 10px;}
+    .flexslider:hover .flex-next { opacity: 0.7; right: 10px;}
+    .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
+    .flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default; }
+
+
+    /* Pause/Play */
+    .flex-pauseplay a { display: block; width: 20px; height: 20px; position: absolute; bottom: 5px; left: 10px; opacity: 0.8; z-index: 10; overflow: hidden; cursor: pointer; color: #000; background:#ddd}
+    .flex-pauseplay a:before  { font-family: "flexslider-icon"; font-size: 20px; display: inline-block; content: '\f004'; }
+    .flex-pauseplay a:hover  { opacity: 1; }
+    .flex-pauseplay a.flex-play:before { content: '\f003'; }
+
+    /* Control Nav */
+    .flex-control-nav {width: 100%; position: absolute; bottom: 20px; text-align: center;}
+    .flex-control-nav li { display: inline-block; zoom: 1; *display: inline;}
+
+    .flex-control-paging li a.flex-active { background: #000; background: rgba(0,0,0,0.9); cursor: default; }
+
+    .flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+    .flex-control-thumbs li {width: 25%; float: left; margin: 0;}
+    .flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
+    .flex-control-thumbs img:hover {opacity: 1;}
+    .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
+
+    @media screen and (max-width: 860px) {
+        .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
+        .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
+    }
+</style>
