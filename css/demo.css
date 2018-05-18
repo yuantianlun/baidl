@@ -203,8 +203,8 @@
     width: 25%;
     float: left;
     position: relative;
+    transition: all .5s;
 }
-
 .service-bottom-word {
     width: 100%;
     height: 40%;
@@ -234,7 +234,7 @@
 }
 
 #zhe {
-    background: rgba(218, 253, 142, 0.1);
+    background: rgba(255, 255, 255, 0.5);
     z-index: 9;
     position: absolute;
     width: 100%;
@@ -296,10 +296,10 @@
 
 .US-bottom {
     width: 62.5%;
-    margin: 0 auto;
+    margin: 23px auto;
     z-index: 99;
-    line-height: 0.8rem;
-    font-size: 0.5rem;
+    line-height: 0.68rem;
+    font-size: 0.3rem;
     color: #000;
 }
 
@@ -386,3 +386,12 @@
     background: #ffffff;
     color: #000000;
 }
+.map_box{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}

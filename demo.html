@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,12 +9,35 @@
     <link rel="stylesheet" href="css/jquery.fullPage.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/demo.css">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/demo1.css" />
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/demo1.css"/>
+    <link rel="stylesheet" type="text/css" href="css/component.css"/>
     <link rel="stylesheet" href="css/header.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/anli/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/anli/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/anli/card.css" />
+    <link rel="stylesheet" type="text/css" href="css/anli/pattern.css" />
+    <!--[if IE]><![endif]-->
+    <!--<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>-->
+    <!--<script src="js/anli/vendors/trianglify.min.js"></script>-->
+    <!--<script src="js/anli/vendors/TweenMax.min.js"></script>-->
+    <!--<script src="js/anli/vendors/ScrollToPlugin.min.js"></script>-->
+    <!--<script src="js/anli/vendors/cash.min.js"></script>-->
+    <!--<script src="js/anli/Card-circle.js"></script>-->
+    <!--<script src="js/anli/demo.js"></script>-->
+    <!--<script>-->
+        <!--if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {-->
+            <!--var root = document.getElementsByTagName('html')[0];-->
+            <!--root.setAttribute('class', 'ff');-->
+        <!--};-->
+    <!--</script>-->
+    <script src="js/jquery.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
     <script src="js/rem.js"></script>
+    <!--<script src="js/map.js"></script>-->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 </head>
 <body>
 <header id="header">
@@ -29,6 +52,9 @@
                     <li class="" data-menuanchor="page4">
                         <a href="#page4" class="item">关于我们</a>
                     </li>
+                    <li class=" has_sub">
+                        <a href="" class="item">我们的优势</a>
+                    </li>
                     <li class=" has_sub" data-menuanchor="page3">
                         <a href="#page3" class="item">我们的服务</a>
                     </li>
@@ -39,8 +65,8 @@
                         <a href="#page6" class="item">联系我们</a>
                     </li>
                     <li class="header-contact">
-                        <div style="float: left; width: 30px;">
-                            <img src="img/headtel.png" alt="" style="width: 100%;">
+                        <div style="float: left; width: 30px; height: 70px; position: relative; ">
+                            <img src="img/headtel.png" alt="" style="width: 100%; position: absolute; top: 0; bottom: 0; margin: auto 0;">
                         </div>
                         <strong>13616273187</strong>
                     </li>
@@ -102,23 +128,23 @@
                 </ol>
             </div><!-- /slideshow -->
             <!--<div class="codrops-top clearfix">-->
-                <!--<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/StackEffects/"><span>Previous Demo</span></a>-->
-                <!--<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=18634"><span>Back to the Codrops Article</span></a></span>-->
+            <!--<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/StackEffects/"><span>Previous Demo</span></a>-->
+            <!--<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=18634"><span>Back to the Codrops Article</span></a></span>-->
             <!--</div>-->
             <!--<header class="codrops-header">-->
-                <!--<h1>Tilted Content Slideshow <span>Recreating the FWA.com landing page perspective slider</span></h1>-->
+            <!--<h1>Tilted Content Slideshow <span>Recreating the FWA.com landing page perspective slider</span></h1>-->
             <!--</header>-->
             <!--<section class="related">-->
-                <!--<p>Screenshots from <a href="http://zurb.com/responsive">Zurb's Responsive Gallery</a></p>-->
-                <!--<h3>If you enjoyed this demo you might also like:</h3>-->
-                <!--<a href="http://tympanus.net/Development/ScatteredPolaroidsGallery/">-->
-                    <!--<img src="http://tympanus.net/codrops/wp-content/uploads/2014/01/ScatteredPolaroidGallery1-300x162.jpg" />-->
-                    <!--<h3>Scattered Polaroids Gallery</h3>-->
-                <!--</a>-->
-                <!--<a href="http://tympanus.net/Development/3DEffectMobileShowcase/">-->
-                    <!--<img src="http://tympanus.net/codrops/wp-content/uploads/2013/08/appshowcase3d-300x162.jpg" />-->
-                    <!--<h3>Mobile Showcase 3D Effect</h3>-->
-                <!--</a>-->
+            <!--<p>Screenshots from <a href="http://zurb.com/responsive">Zurb's Responsive Gallery</a></p>-->
+            <!--<h3>If you enjoyed this demo you might also like:</h3>-->
+            <!--<a href="http://tympanus.net/Development/ScatteredPolaroidsGallery/">-->
+            <!--<img src="http://tympanus.net/codrops/wp-content/uploads/2014/01/ScatteredPolaroidGallery1-300x162.jpg" />-->
+            <!--<h3>Scattered Polaroids Gallery</h3>-->
+            <!--</a>-->
+            <!--<a href="http://tympanus.net/Development/3DEffectMobileShowcase/">-->
+            <!--<img src="http://tympanus.net/codrops/wp-content/uploads/2013/08/appshowcase3d-300x162.jpg" />-->
+            <!--<h3>Mobile Showcase 3D Effect</h3>-->
+            <!--</a>-->
             <!--</section>-->
         </div>
     </div>
@@ -129,8 +155,7 @@
         <!--<div class="map-dian"></div>-->
         <!--<div class="map-dian"></div>-->
     </div>
-    <div class="section"  style="padding: 3% 0;">
-
+    <div class="section" style="padding: 3% 0;">
         <div class="service">
             <div class="service-top">
                 <div class="service-top-Eword">
@@ -143,7 +168,7 @@
             <ul class="service-bottom">
                 <li>
                     <div class="service-bottom-word">
-                        <h4>网站建设</h4>
+                        <h4><a href="./jianshe.html">网站建设</a></h4>
                         <h6>突出核心内容</h6>
                         <h6>聚焦访客眼球</h6>
                         <h6>智能响应</h6>
@@ -152,19 +177,40 @@
                     <img src="img/1.png" alt="">
                 </li>
                 <li>
+                    <div class="service-bottom-word">
+                        <h4><a href="./SEM.html">SEM托管及运营</a></h4>
+                        <h6>提高有效咨询量</h6>
+                        <h6>降低平均点击价格</h6>
+                        <h6>提升成交转换量</h6>
+                        <h6>提高投入产出比</h6>
+                    </div>
                     <img src="img/2.png" alt="">
                 </li>
                 <li>
+                    <div class="service-bottom-word">
+                        <h4><a href="./SEO.html">SEO优化</a></h4>
+                        <h6>精准定位、快速上词</h6>
+                        <h6>价格透明、系统智能</h6>
+                        <h6>按天计费</h6>
+                        <h6>不达首页不计费</h6>
+                    </div>
                     <img src="img/3.png" alt="">
                 </li>
                 <li>
+                    <div class="service-bottom-word">
+                        <h4><a href="./dianshang.html">电商运营</a></h4>
+                        <h6>技术实力派，排名有保障</h6>
+                        <h6>资深创意和设计团队</h6>
+                        <h6>10年以上</h6>
+                        <h6>阿里淘宝店铺运营经验</h6>
+                    </div>
                     <img src="img/4.png" alt="">
                 </li>
             </ul>
         </div>
 
     </div>
-    <div class="section"  style="padding: 3% 0;">
+    <div class="section" style="padding: 3% 0;">
         <div class="US_BOX">
             <div id="zhe">
                 <div class="US">
@@ -178,18 +224,17 @@
                         <div class="US-top-Cword">关于我们</div>
                     </div>
                     <p class="US-bottom">
-                        是说起草原，可以说一往情深，对草原的挚爱发自内心的深处，来自生
-                        活中的真实感受。在草原上生活了半个多世纪，是草原的山水养育了
-                        我，给了我生命之光。对草原的一山一水、一草一木充满了爱恋，是
-                        这富有灵感的辽阔草原培育了我的情感世界。蔚蓝的天空，浩瀚而深
-                        邃; 辽阔的草原富有勃勃生机，千年流淌的母亲河一一锡林河，上都
-                        河哺育了美丽的大草原。在这富饶美丽的大草原上生活着勤劳勇敢的
+                        苏州百达利信息技术有限公司是一家专业从事企业网站网站建设、百度推广、舆情监控、 淘宝阿里巴巴装修及代运营、微信开发、新媒体营销、企业整体营销策划服务于一体的高科技IT企业。
+
+                        专业的设计团队、一流的服务态度和先进的网络技术让我们在竞争激烈的网络服务行业中蓬勃发展。 拥有高素质的核心管理层和经验丰富的技术团队，凝聚了一批行业内最优秀的年轻人，他们来自IT技术的最前沿领域， 具有丰富的专业知识和实践经验，不断的创新，追求质的飞越。
+
+                        我们致力于为企业用户提供专业、全面、量身订制的网站设计开发服务和应用解决方案， 还积极倡导先进的网络化信息化经营管理思想，引领企业在全球一体化的“互联网+” 时代中以数字结果提升其核心竞争力， 我们可以协助您通过在线品牌的塑造，建立长久的企业价值，助推中小企业蓬勃发展！
                     </p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="section"  style="padding: 3% 0;">
+    <div class="section" style="padding: 3% 0;">
 
         <div class="case">
             <div class="case-top">
@@ -200,65 +245,240 @@
                 <div class="case-top-box"></div>
                 <div class="case-top-Cword">案例展示</div>
             </div>
-            <div class="case-bottom">
-                <ul>
-                    <li>
-                        <img src="img/case1.png" alt="">
-                        <div>xxx网站</div>
-                    </li>
-                    <li>
-                        <img src="img/case1.png" alt="">
-                        <div>xxx网站</div>
-                    </li>
-                    <li>
-                        <img src="img/case1.png" alt="">
-                        <div>xxx网站</div>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <img src="img/case1.png" alt="">
-                        <div>xxx网站</div>
-                    </li>
-                    <li>
-                        <img src="img/case1.png" alt="">
-                        <div>xxx网站</div>
-                    </li>
-                    <li>
-                        <img src="img/case1.png" alt="">
-                        <div>xxx网站</div>
-                    </li>
-                </ul>
+            <div class="container">
+                <div class="content">
+                    <!-- trianglify pattern container -->
+                    <div class="pattern pattern--hidden"></div>
+                    <!-- cards -->
+                    <div class="wrapper">
+                        <div class="card">
+                            <div class="card__container card__container--closed">
+                                <svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+                                    <defs>
+                                        <clipPath id="clipPath1">
+                                            <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                            <circle class="clip" cx="960" cy="250" r="992"></circle>
+                                        </clipPath>
+                                    </defs>
+                                    <image clip-path="url(#clipPath1)" width="1920" height="500" xlink:href="img/anli/a.jpg"></image>
+                                </svg>
+                                <div class="card__content">
+                                    <i class="card__btn-close fa fa-times"></i>
+                                    <div class="card__caption">
+                                        <h2 class="card__title">
+                                            <a href="www.guoyaozs.com">国耀装饰</a>
+                                        </h2>
+                                        <p class="card__subtitle">A modern day love story</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__container card__container--closed">
+                                <svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+                                    <defs>
+                                        <clipPath id="clipPath2">
+                                            <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                            <circle class="clip" cx="960" cy="250" r="992"></circle>
+                                        </clipPath>
+                                    </defs>
+                                    <image clip-path="url(#clipPath2)" width="1920" height="500" xlink:href="img/anli/b.jpg"></image>
+                                </svg>
+                                <div class="card__content">
+                                    <i class="card__btn-close fa fa-times"></i>
+                                    <div class="card__caption">
+                                        <h2 class="card__title">
+                                            <a href="www.mokufang.cn">魔酷方</a>
+                                        </h2>
+                                        <p class="card__subtitle">A story about a woman</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__container card__container--closed">
+                                <svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+                                    <defs>
+                                        <clipPath id="clipPath3">
+                                            <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                            <circle class="clip" cx="960" cy="250" r="992"></circle>
+                                        </clipPath>
+                                    </defs>
+                                    <image clip-path="url(#clipPath3)" width="1920" height="500" xlink:href="img/anli/c.jpg"></image>
+                                </svg>
+                                <div class="card__content">
+                                    <i class="card__btn-close fa fa-times"></i>
+                                    <div class="card__caption">
+                                        <h2 class="card__title">
+                                            <a href="www.ldfsj.com">老大坊生煎</a>
+                                        </h2>
+                                        <p class="card__subtitle">Helen's view on wells</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__container card__container--closed">
+                                <svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+                                    <defs>
+                                        <clipPath id="clipPath4">
+                                            <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                            <circle class="clip" cx="960" cy="250" r="992"></circle>
+                                        </clipPath>
+                                    </defs>
+                                    <image clip-path="url(#clipPath4)" width="1920" height="500" xlink:href="img/anli/d.jpg"></image>
+                                </svg>
+                                <div class="card__content">
+                                    <i class="card__btn-close fa fa-times"></i>
+                                    <div class="card__caption">
+                                        <h2 class="card__title">
+                                            <a href="www.yaxuhg.com">亚旭精细化工</a>
+                                        </h2>
+                                        <p class="card__subtitle">What will we eat in 30 years?</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__container card__container--closed">
+                                <svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+                                    <defs>
+                                        <clipPath id="clipPath5">
+                                            <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                            <circle class="clip" cx="960" cy="250" r="992"></circle>
+                                        </clipPath>
+                                    </defs>
+                                    <image clip-path="url(#clipPath5)" width="1920" height="500" xlink:href="img/anli/e.jpg"></image>
+                                </svg>
+                                <div class="card__content">
+                                    <i class="card__btn-close fa fa-times"></i>
+                                    <div class="card__caption">
+                                        <h2 class="card__title">
+                                            <a href="javascript:void(0);" onclick="window.open('http://www.lijianjidian88.com/','_blank');" target="_blank">丽建机电</a>
+                                        </h2>
+                                        <p class="card__subtitle">A Makrel's story</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card__container card__container--closed">
+                                <svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+                                    <defs>
+                                        <clipPath id="clipPath6">
+                                            <!-- r = 992 = hyp = Math.sqrt(960*960+250*250) -->
+                                            <circle class="clip" cx="960" cy="250" r="992"></circle>
+                                        </clipPath>
+                                    </defs>
+                                    <image clip-path="url(#clipPath6)" width="1920" height="500" xlink:href="img/anli/f.jpg"></image>
+                                </svg>
+                                <div class="card__content">
+                                    <i class="card__btn-close fa fa-times"></i>
+                                    <div class="card__caption">
+                                        <h2 class="card__title">Freedom Fighters</h2>
+                                        <p class="card__subtitle">When it's too hot to think</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /cards -->
+                </div><!-- /content -->
             </div>
+            <!--<div class="case-bottom">-->
+                <!--<ul>-->
+                    <!--<li>-->
+                        <!--<img src="img/case1.png" alt="">-->
+                        <!--<div>xxx网站</div>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<img src="img/case1.png" alt="">-->
+                        <!--<div>xxx网站</div>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<img src="img/case1.png" alt="">-->
+                        <!--<div>xxx网站</div>-->
+                    <!--</li>-->
+                <!--</ul>-->
+                <!--<ul>-->
+                    <!--<li>-->
+                        <!--<img src="img/case1.png" alt="">-->
+                        <!--<div>xxx网站</div>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<img src="img/case1.png" alt="">-->
+                        <!--<div>xxx网站</div>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<img src="img/case1.png" alt="">-->
+                        <!--<div>xxx网站</div>-->
+                    <!--</li>-->
+                <!--</ul>-->
+            <!--</div>-->
             <div class="see">查看更多</div>
         </div>
 
     </div>
-    <div class="section"  style="padding: 3% 0;">
-        <iframe frameborder="0" height="400" marginheight="0" marginwidth="0" scrolling="no" src="http://dts.y.redyue.org/amap.html?1_900_312_121.3544815779_31.1595529538&amp;=%E9%80%92%E5%A4%A9%E6%96%AF%EF%BC%88%E4%B8%8A%E6%B5%B7%EF%BC%89%E8%BD%AF%E4%BB%B6%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&amp;=上海市闵行区新龙路399弄1号
-七宝宝龙城T4栋703A室&amp;=&amp;=&amp;=&amp;=cn" width="600"></iframe>
+    <div class="section" style="padding: 3% 0;">
+        <div class="case-top">
+            <div class="case-top-Eword">
+                <span class="Case">CONTACT</span>
+                <span class="Study">US</span>
+            </div>
+            <div class="case-top-box"></div>
+            <div class="case-top-Cword">联系我们</div>
+        </div>
+        <div class="map_box">
+            <div style="width: 50%;
+    height: 45%;
+    border: 1px solid rgb(204, 204, 204);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    background-image: url(http://api.map.baidu.com/images/bg.png);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto auto;" id="dituContent"></div>
+        </div>
+        <div class="iup">
+            <form class="clearfix">
+                <input class="names fl" type="text" value="Name">
+                <input class="emails fr" type="email" value="Email">
+                <input class="subjects" type="text" value="Subject">
+                <textarea>Message...</textarea>
+                <input class="submits fr" type="submit" value="Submit">
+            </form>
+        </div>
     </div>
 </div>
 
 <script src="js/classie.js"></script>
 <script src="js/tiltSlider.js"></script>
 <script>
-    new TiltSlider( document.getElementById( 'slideshow' ) );
+    new TiltSlider(document.getElementById('slideshow'));
 </script>
 </body>
 </html>
-<script src="js/jquery.min.js"></script>
 <script src="js/jquery.fullPage.min.js"></script>
 <script src="js/fullpage1024.js"></script>
 <script src="js/map.js"></script>
 <!--<script src="js/swiper.min.js"></script>-->
-
 <script>
     $(function () {
         $('#dowebok').fullpage({
             sectionsColor: ['#ffffff', '#ffffff', '#ffffff', '#ffffff', '#202020'],
-                anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
-                menu: '#header'
+            anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
+            menu: '#header'
         });
     });
 
