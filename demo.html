@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="css/anli/demo.css"/>
     <link rel="stylesheet" type="text/css" href="css/anli/card.css"/>
     <link rel="stylesheet" type="text/css" href="css/anli/pattern.css"/>
+    <link rel="stylesheet" href="css/kuangjia.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
     <script src="js/rem.js"></script>
@@ -36,9 +37,7 @@
                     <li class="active acurrent" data-menuanchor="page1">
                         <a href="#page1" class="item">首页</a>
                     </li>
-                    <li class="" data-menuanchor="page4">
-                        <a href="#page4" class="item">关于我们</a>
-                    </li>
+
                     <li class=" has_sub" data-menuanchor="page2">
                         <a href="#page2" class="item">我们的优势</a>
                     </li>
@@ -58,6 +57,9 @@
                                 <a href="">网站建设</a>
                             </div>
                         </div>
+                    </li>
+                    <li class="" data-menuanchor="page4">
+                        <a href="#page4" class="item">关于我们</a>
                     </li>
                     <li class=" has_sub">
                         <a href="anli.html" class="item">案例展示</a>
@@ -151,7 +153,7 @@
         </div>
     </div>
     <div class="section" style="padding: 3% 0;">
-        <div style="position: absolute;z-index: 999;top: 7%;left: 0; right: 0;margin: 0 auto;width: 50%;text-align: center ;font-size: 0.4rem;" >
+        <div class="map-box" style="position: absolute;z-index: 999;top: 0;bottom: 0;left: 0; right: 0;margin: auto;width: 50%;height: 30%;text-align: center ;font-size: 0.4rem;" >
             <p>百达利“<span style="color: #01c1c6">匠心制作</span>”</p>
             <p>定位，定天下</p>
         </div>
@@ -173,7 +175,7 @@
                 <div class="service-top-Cword">我们的服务</div>
             </div>
             <ul class="service-bottom">
-                <li>
+                <li class="col-xs-12 col-sm-12 col-lg-3 col-md-3">
                     <div class="service-bottom-word">
                         <h4><a href="./jianshe.html">网站建设</a></h4>
                         <h6>突出核心内容</h6>
@@ -183,7 +185,7 @@
                     </div>
                     <img src="img/1.png" alt="">
                 </li>
-                <li>
+                <li class="col-xs-12 col-sm-12 col-lg-3 col-md-3">
                     <div class="service-bottom-word">
                         <h4><a href="./SEM.html">SEM托管及运营</a></h4>
                         <h6>提高有效咨询量</h6>
@@ -193,7 +195,7 @@
                     </div>
                     <img src="img/2.png" alt="">
                 </li>
-                <li>
+                <li class="col-xs-12 col-sm-12 col-lg-3 col-md-3">
                     <div class="service-bottom-word">
                         <h4><a href="./SEO.html">SEO优化</a></h4>
                         <h6>精准定位、快速上词</h6>
@@ -203,7 +205,7 @@
                     </div>
                     <img src="img/3.png" alt="">
                 </li>
-                <li>
+                <li class="col-xs-12 col-sm-12 col-lg-3 col-md-3">
                     <div class="service-bottom-word">
                         <h4><a href="./dianshang.html">电商运营</a></h4>
                         <h6>技术实力派，排名有保障</h6>
@@ -259,29 +261,28 @@
             <!--</div>-->
             <div class="case-bottom">
                 <ul>
-                    <li>
+                    <li class="col-xs-12 col-sm-12 col-lg-3 col-md-3" style="margin-right: 9vw">
                         <img src="img/case1.png" alt="">
                         <div>xxx网站</div>
                     </li>
-                    <li>
+                    <li class="col-xs-12 col-sm-12 col-lg-3 col-md-3" style="margin-right: 9vw">
                         <img src="img/case1.png" alt="">
                         <div>xxx网站</div>
                     </li>
-                    <li>
+                    <li class="col-xs-12 col-sm-12 col-lg-3 col-md-3">
                         <img src="img/case1.png" alt="">
                         <div>xxx网站</div>
                     </li>
-                </ul>
-                <ul>
-                    <li>
+
+                    <li class="col-xs-12 col-sm-12 col-lg-3 col-md-3" style="margin-right: 9vw">
                         <img src="img/case1.png" alt="">
                         <div>xxx网站</div>
                     </li>
-                    <li>
+                    <li class="col-xs-12 col-sm-12 col-lg-3 col-md-3" style="margin-right: 9vw">
                         <img src="img/case1.png" alt="">
                         <div>xxx网站</div>
                     </li>
-                    <li>
+                    <li class="col-xs-12 col-sm-12 col-lg-3 col-md-3">
                         <img src="img/case1.png" alt="">
                         <div>xxx网站</div>
                     </li>
@@ -301,8 +302,8 @@
             <div class="case-top-Cword">联系我们</div>
         </div>
         <div style="width:100%;height:70%;">
-            <div class="map_box">
-                <div style="width: 80%;height: 60%;border: 1px solid rgb(204, 204, 204);overflow: hidden;position: absolute;top: 0;bottom:0;z-index: 0;background-image: url(http://api.map.baidu.com/images/bg.png);color: rgb(0, 0, 0);text-align: left;right: 0;left: 0;margin: auto auto;" id="dituContent"></div>
+            <div class="map_box col-lg-6 col-ma-6 col-sm-12 col-xs-12">
+                <div style="display:block;width: 80%;height: 60%;border: 1px solid rgb(204, 204, 204);overflow: hidden;position: absolute;top: 0;bottom:0;z-index: 0;background-image: url(http://api.map.baidu.com/images/bg.png);color: rgb(0, 0, 0);text-align: left;right: 0;left: 0;margin: auto auto;" id="dituContent"></div>
             </div>
             <div class="iup" style="width:50%;height:100%;float: right;position: relative; font-size: 0.16rem">
                 <form class="clearfix"
@@ -367,6 +368,21 @@ transform: scale(0);"></div>
                 }
             }
         });
+        $(window).resize(function(){
+            autoScrolling();
+        });
+
+        function autoScrolling(){
+            var $ww = $(window).width();
+            if($ww < 1024){
+                $.fn.fullpage.setAutoScrolling(false);
+            } else {
+                $.fn.fullpage.setAutoScrolling(true);
+            }
+        }
+
+        autoScrolling();
+
     });
 
     $('.case-bottom>ul>li').each(function () {
@@ -380,4 +396,10 @@ transform: scale(0);"></div>
         $(this).css('transform', 'scale(0)');
     })
 
+</script>
+<script>
+    $(".map-dian").on("click",function () {
+        console.log(1);
+        $(".map-box").css("display","none");
+    })
 </script>
