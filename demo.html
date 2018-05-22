@@ -43,7 +43,21 @@
                         <a href="" class="item">我们的优势</a>
                     </li>
                     <li class=" has_sub" data-menuanchor="page3">
-                        <a href="#page3" class="item">我们的服务</a>
+                        <a href="#page3" class="item xialala" style="position: relative;display: inline-block;">我们的服务</a>
+                        <div class="header_fuwu">
+                            <div class="xiala1">
+                                <a href="">SEM托管及运营</a>
+                            </div>
+                            <div class="xiala1">
+                                <a href="">SEO优化</a>
+                            </div>
+                            <div class="xiala1">
+                                <a href="">电商运营</a>
+                            </div>
+                            <div class="xiala1">
+                                <a href="">网站建设</a>
+                            </div>
+                        </div>
                     </li>
                     <li class=" has_sub">
                         <a href="anli.html" class="item">案例展示</a>
@@ -137,11 +151,16 @@
         </div>
     </div>
     <div class="section" style="padding: 3% 0;">
-        <div class="map-img"></div>
-        <!--<div class="map-dian"></div>-->
-        <!--<div class="map-dian"></div>-->
-        <!--<div class="map-dian"></div>-->
-        <!--<div class="map-dian"></div>-->
+        <div style="position: absolute;z-index: 999;top: 7%;left: 0; right: 0;margin: 0 auto;width: 50%;text-align: center ;font-size: 0.4rem;" >
+            <p>百达利“<span style="color: #01c1c6">匠心制作</span>”</p>
+            <p>定位，定天下</p>
+        </div>
+        <div class="map-img" style="position: relative"></div>
+
+        <div class="map-dian" style="position: absolute; top: 40%;left: 27.3%;"></div>
+        <div class="map-dian" style="position: absolute; top: 39%; left: 47%;"></div>
+        <div class="map-dian" style="position: absolute; top: 49.5%;left: 63%;"></div>
+        <div class="map-dian" style="position: absolute; top:42%; left: 75%"></div>
     </div>
     <div class="section" style="padding: 3% 0;">
         <div class="service">
@@ -272,7 +291,7 @@
         </div>
 
     </div>
-    <div class="section" style="padding: 3% 0;">
+    <div class="section" style="padding: 3% 0; background: url('img/contact.jpg')center/cover;">
         <div class="case-top">
             <div class="case-top-Eword">
                 <span class="Case">CONTACT</span>
@@ -283,36 +302,24 @@
         </div>
         <div style="width:100%;height:70%;">
             <div class="map_box">
-                <div style="width: 70%;
-    height: 70%;
-    border: 1px solid rgb(204, 204, 204);
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    z-index: 0;
-    background-image: url(http://api.map.baidu.com/images/bg.png);
-    color: rgb(0, 0, 0);
-    text-align: left;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto auto;" id="dituContent"></div>
+                <div style="width: 60%;height: 60%;border: 1px solid rgb(204, 204, 204);overflow: hidden;position: absolute;top: 0;bottom:0;z-index: 0;background-image: url(http://api.map.baidu.com/images/bg.png);color: rgb(0, 0, 0);text-align: left;right: 0;left: 0;margin: auto auto;" id="dituContent"></div>
             </div>
-            <div class="iup" style="width:50%;height:80%;float: right;position: relative; font-size: 0.16rem">
+            <div class="iup" style="width:50%;height:100%;float: right;position: relative; font-size: 0.16rem">
                 <form class="clearfix"
-                      style="width:100%;height: 60%;position: absolute;top: 0;bottom: 0;margin: auto  0;">
-                    <div style="margin-bottom: 20px">
-                        <input class="names fl" type="text" value="姓名" style="width:45%; height:40px;">
-                        <input class="emails fr" type="email" value="邮箱" style="width:44.5%; height:40px;">
+                      style="width:60%;height: 60%;position: absolute;top: 0;bottom: 0;left:0; right:0;margin: auto;">
+                    <div style="margin-bottom: 35px">
+                        <input class="names fl" type="text" value="姓名" style="width:45%; height:55px;background: #fffdfd52;border: 0;">
+                        <input class="emails fr" type="email" value="邮箱" style="width:44.5%; height:55px;background: #fffdfd52;border: 0;">
                     </div>
-                    <div style="margin-bottom: 20px">
-                        <input class="subjects" type="text" value="标题" style="width:90%; height:40px;">
+                    <div style="margin-bottom: 35px">
+                        <input class="subjects" type="text" value="标题" style="width:90%; height:55px;background: #fffdfd52;border: 0;">
                     </div>
-                    <div style="margin-bottom: 20px">
-                        <textarea style="width:90%; height:100px;">Message...</textarea>
+                    <div style="margin-bottom: 35px">
+                        <textarea style="width:90%; height:100px;background: #fffdfd52;border: 0;">Message...</textarea>
                     </div>
                     <div style="width:90%;">
-                        <input class="submits fr" type="submit" value="提交" style="width: 100px;height: 50px;border-radius: 10px; float: right">
+                        <input class="submits fr" type="submit" value="发送"
+                               style="width: 100px;height: 50px;border-radius: 10px; background: #fffdfd52;border: 0;float: right">
                     </div>
                 </form>
             </div>
@@ -321,12 +328,13 @@
 </div>
 <div class="zhe" style="width: 100%;
 height: 100%;
-background: #000;
+background:#000000cc;
 position: absolute;
 top:0;
 left: 0;
 margin: 0 auto;
-display: none;"></div>
+ transition: all 1s;
+transform: scale(0);"></div>
 <script src="js/classie.js"></script>
 <script src="js/tiltSlider.js"></script>
 <script>
@@ -337,6 +345,10 @@ display: none;"></div>
 <script src="js/jquery.fullPage.min.js"></script>
 <script src="js/fullpage1024.js"></script>
 <script src="js/map.js"></script>
+</body>
+<script type="text/javascript">
+    var cpro_id = "u2586467";
+</script>
 <!--<script src="js/swiper.min.js"></script>-->
 <script>
     $(function () {
@@ -349,13 +361,13 @@ display: none;"></div>
 
     $('.case-bottom>ul>li').each(function () {
         $(this).on('click', function () {
-            $('.zhe').css('display', 'block');
+            $('.zhe').css('transform','scale(1)');
             var src1 = $(this).find('img').attr('src');
-            $('.zhe').html(`<div style="padding: 10%;margin: 0 auto; width: 70%;height: 100%;"><img style="width: 100%;height: auto" src=${src1} alt=""></div>`)
+            $('.zhe').html(`<div style="padding: 10%;margin: 0 auto; width: 70%;height: 100%; transition: all 2s;"><img style="width: 100%;height: auto;" src="${src1}" alt="" style="transition: all 2s;"></div>`)
         })
     })
     $('.zhe').on('click', function () {
-        $(this).css('display', 'none');
+        $(this).css('transform', 'scale(0)');
     })
 
 </script>
